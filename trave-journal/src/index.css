@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+}
+
+.header{
+  background:#F55A5A ;
+  display:flex;
+  justify-content: center;
+  align-items:center ; 
+  /* width: 550px; */
+  height: 55px;
+  color:white;
+  gap:4px ;
+}
+
+.header > span{
+  font-size: 14.46px;
+  font-family: Inter;
+}
+.header > img{
+  width: 24px;
+  height: 24px;
+}
