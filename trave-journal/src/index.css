@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  font-family: Inter;
 }
 
 .header{
@@ -20,4 +21,62 @@ body{
 .header > img{
   width: 24px;
   height: 24px;
+}
+
+
+.entry{
+  display: flex;
+  margin-top: 50px;
+}
+
+
+.landscape-container{
+  margin-left:40px;
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+.landscape-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.location img{
+  width: 7px;
+  height: 9.55px;
+}
+
+.location img{
+  margin-right: 3px;
+}
+.location span{
+  margin-right: 12px;
+  font-size: 10.24px;
+}
+
+.location a{
+  color: #918E9B;
+  font-size: 10.24px;
+}
+
+.div2{
+  margin-left: 19px;
+}
+
+.div2 h1{
+  font-size: 25px;
+  margin-bottom: 17px;
+  font-weight: bold;
+}
+
+.div2 span {
+  font-size: 10.24px;
+  font-weight: bold;
+}
+
+.div2 p{
+  font-size: 10.24px;
+
 }
