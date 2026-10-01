@@ -5,6 +5,7 @@ function App(){
 
   const entry=entries.map((data)=>{
     return (<Entry
+            key={data.id}
             img={data.img}
             title={data.title}
             country={data.country}
