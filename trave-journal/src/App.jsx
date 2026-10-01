@@ -6,7 +6,7 @@ function App(){
   const entry=entries.map((data)=>{
     return (<Entry
             key={data.id}
-            entry={data}
+            {...data}
           />)
   })
 
