@@ -4,14 +4,14 @@ import entries from "./data.js"
 function App(){
 
   const entry=entries.map((data)=>{
-    return <Entry
-            img={{ src: data.img.src, alt:data.img.alt }}
+    return (<Entry
+            img={data.img}
             title={data.title}
             country={data.country}
             googleMaps={data.googleMapsLink}
             dates={data.dates}
             text={data.text}
-          />
+          />)
   })
 
   return(
